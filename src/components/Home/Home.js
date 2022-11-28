@@ -13,6 +13,11 @@ const Home = () => {
             });
     }, []);
 
+    //moje s promenlivi ako smqtash che inache ne e dostatychno descriptivno
+    //const latestGames = games.map(x => <LatestGame key={x._id} game={x} />); //moje taka i posle podavash promenlivata, no tova e kogato stane mnogo debel koda spored nego 
+    //const hasGames = games.length > 0; //i taka stava, toest s bulevi izrazi. No tova samo po sebe si e dostatychno descriptivno
+    //no ako e 'games.length > 7' togava naistina e hubavo samata promenliva da podskazva za rolqta na buleviq izraz v sluchaq
+    
     return (
         // {/*Home Page*/}
         <section id="welcome-world">
